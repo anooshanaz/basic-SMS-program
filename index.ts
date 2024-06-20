@@ -1,7 +1,6 @@
 
 import inquirer from "inquirer";
 import chalk from "chalk"
-import { table } from "console";
 console.log(chalk.yellowBright("Student application form"))
 let answer = await inquirer.prompt([
     {
